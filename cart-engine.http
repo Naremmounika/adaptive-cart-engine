@@ -1,0 +1,23 @@
+GET http://localhost:3000/
+###
+
+POST http://127.0.0.1:3000/cart/user123/items
+Content-Type: application/json
+
+{
+  "productId": "p1",
+  "name": "Laptop",
+  "price": 50000,
+  "quantity": 1
+}
+###
+
+POST http://localhost:3000/cart/user123/items
+Content-Type: application/json
+
+{
+  "productId": "P001",
+  "name": "Laptop",
+  "price": 50000,
+  "quantity": 1
+}
